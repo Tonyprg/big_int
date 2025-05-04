@@ -1,3 +1,6 @@
+#ifndef BIG_INT_H
+#define BIG_INT_H
+
 #include <stdio.h>
 
 #ifndef MIN
@@ -32,3 +35,5 @@ BigInt* big_int_positive_sub (BigInt *a, BigInt *b);
 BigInt* big_int_mul          (BigInt *a, BigInt *b);
 
 void test ();
+
+#endif
